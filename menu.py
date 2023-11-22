@@ -6,22 +6,23 @@ from history import history
 def menu():
     print ("----------------------------------------------------------\n")
     print ("\tBem vindo a Calculadora Orientada a Objeto\n\n")
-    opcao = input ("O que deseja fazer?\n1 - Operação\n2 - Historico de contas\n3 - Sair\t")
+    opcao = input ("Deseja fazer uma operação?\n1- Sim\n2 -Não\t")
+    if opcao == '2':
+        opcao = input ("Deseja Verificar o historico?\n1- Sim\n2 -Não\t")
 
-    print(opcao)
+        if opcao == '1':
+            calc()
 
-    if opcao == '1':
+        elif opcao == '2':
+            history()
+
+        else :  
+            print("Não entendi.\nPoderia repetir.\n")
+            print ("----------------------------------------------------------\n")
+            exit()
+    elif opcao == '1':
         calc()
-
-    elif opcao == '2':
-        history()
-
-    elif opcao == '3':
-        exit() 
-
     else :  
         print("Não entendi.\nPoderia repetir.\n")
         print ("----------------------------------------------------------\n")
-        system("pause")
-        system('clear')
-        menu()
+        exit()

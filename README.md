@@ -4,7 +4,7 @@ Prof. David Tigre Moraes<br>
 Projeto 2 – Paradigma Orientado a Objeto<br>
 <p>O que fazer<br></p> 
 </div>
-<div >
+<div>
 PRIMEIRO: Desenvolva um programa, em qualquer linguagem de programação (que suporte
 orientação a objeto) que simule uma calculadora, seguindo o diagrama de atividades da próxima
 página.<br>
