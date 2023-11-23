@@ -1,5 +1,5 @@
 from os import system
-from main import main
+
 num = []
 
 def calc():
@@ -28,19 +28,18 @@ def number():
 def mat():
     resul = num[0] + num [1]
     print(resul)
-    main()
 
 def sub():
     resul = num[0] - num [1]
     print(resul)
-    main()
+    
 
 def div():
     resul = num[0] / num [1]
     print(resul)
-    main()
+    
 
 def mul():
     resul = num[0] * num [1]
     print(resul)
-    main()
+    
