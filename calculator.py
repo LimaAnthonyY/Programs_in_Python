@@ -1,11 +1,11 @@
 from os import system
+from history import hist
 
 num = []
 
 def calc():
     op=input('Digite qual operação:\n1 - Adição\n2 - Subtração\n3 - Divisão\n4 - Multiplicação')
     
-    number()
 
     if op == '1':
         mat()
@@ -26,20 +26,25 @@ def number():
     num.append(float(input("Segundo número: ")))
 
 def mat():
+    number()
     resul = num[0] + num [1]
     print(resul)
+    hist.append(resul)
 
 def sub():
+    number()
     resul = num[0] - num [1]
     print(resul)
-    
+    hist.append(resul)
 
 def div():
+    number()
     resul = num[0] / num [1]
     print(resul)
-    
+    hist.append(resul)
 
 def mul():
+    number()
     resul = num[0] * num [1]
     print(resul)
-    
+    hist.append(resul)

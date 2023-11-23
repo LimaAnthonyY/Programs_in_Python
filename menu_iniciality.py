@@ -35,7 +35,5 @@ def menu():
             print("\n\nNão entendi.\nFechando o Programa.\n")
             print ("----------------------------------------------------------\n")
             system("pause")
-            opcao == "3"
+            opcao = "3"
             exit()
-
-menu()
