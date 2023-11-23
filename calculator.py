@@ -1,10 +1,12 @@
 from os import system
 from history import hist
+from history import op_his
+from history import valores
 
 num = []
 
 def calc():
-    op=input('Digite qual operação:\n1 - Adição\n2 - Subtração\n3 - Divisão\n4 - Multiplicação')
+    op=input('Digite qual operação:\n1 - Adição\n2 - Subtração\n3 - Divisão\n4 - Multiplicação\n:::')
     
 
     if op == '1':
@@ -28,23 +30,43 @@ def number():
 def mat():
     number()
     resul = num[0] + num [1]
-    print(resul)
+    print("A soma dos númerou deu: " + str(resul))
+    print("\n\nSalvando resultado........\n\n")
+    system("pause")
     hist.append(resul)
+    valores.append(num[0])
+    valores.append(num[1])
+    op_his.append("1")
 
 def sub():
     number()
     resul = num[0] - num [1]
-    print(resul)
+    print("A subtração dos númerou deu: " + str(resul))
+    print("\n\nSalvando resultado........\n\n")
+    system("pause")
     hist.append(resul)
+    valores.append(num[0])
+    valores.append(num[1])    
+    op_his.append("2")
 
 def div():
     number()
     resul = num[0] / num [1]
-    print(resul)
+    print("A divisão dos númerou deu: " + str(resul))
+    print("\n\nSalvando resultado........\n\n")
+    system("pause")
     hist.append(resul)
+    valores.append(num[0])
+    valores.append(num[1])
+    op_his.append("3")
 
 def mul():
     number()
     resul = num[0] * num [1]
-    print(resul)
+    print("A multiplicação dos númerou deu: " + str(resul))
+    print("\n\nSalvando resultado........\n\n")
+    system("pause")
     hist.append(resul)
+    valores.append(num[0])
+    valores.append(num[1])    
+    op_his.append("4")
