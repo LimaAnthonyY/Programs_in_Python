@@ -5,26 +5,29 @@ from history import valor1
 from history import valor2
 
 num=[0,0]
-def number():
-    print("Digite dois números para a operação:")
-    num[0]=(float(input("Primeiro número: ")))
-    num[1]=(float(input("Segundo número: ")))
 
+def nume():
+        print("\nDigite dois números para a operação:")
+        num[0]=(float(input("Primeiro número: ")))
+        num[1]=(float(input("Segundo número: ")))
+        
 def calc():
-    op=input('Digite qual operação:\n1 - Adição\n2 - Subtração\n3 - Divisão\n4 - Multiplicação\n:::')
+    op=input('\nDigite qual operação:\n1 - Adição\n2 - Subtração\n3 - Divisão\n4 - Multiplicação\n:::  ')
     
-    number()
-
     if op == '1':
+        nume()
         mat()
     elif op == '2':
+        nume()
         sub()
     elif op == '3':
+        nume()
         div()
     elif op == '4':
+        nume()
         mul()
     else:
-        print("Não entendi.\nPoderia repetir.")
+        print("\nNão entendi.\nPoderia repetir.")
         system('pause')
         calc()
 
