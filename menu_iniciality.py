@@ -4,6 +4,7 @@ import time
 from history import history
 
 
+
 def menu():
     opcao = "1"
     while opcao != "3":
