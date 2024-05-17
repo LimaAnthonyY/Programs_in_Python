@@ -1,15 +1,14 @@
 <div>
   
-## Analisar pedra, papel, tesoura, lagarto e Spock para a modelagem OOP<br><br>
+# Pedra, papel, tesoura, lagarto e Spock para a modelagem OOP<br><br>
 
-
-### Este exercício é um exercício de modelagem. Você receberá uma descrição do domínio do problema. Em seguida, deverá retirar as palavras-chave importantes do texto e organizá-las em uma tabela.
+#### Este exercício é um exercício de modelagem. Você receberá uma descrição do domínio do problema. Em seguida, deverá retirar as palavras-chave importantes do texto e organizá-las em uma tabela.
 
 </div>
 
-#### O que fazer<br>
+### O que fazer<br>
 
-##### Descrição do problema<br>
+##### Descrição do problema
 
 <div>
   
@@ -33,26 +32,22 @@ A tesoura decapita o lagarto, tesoura corta papel, papel embrulha a pedra, a ped
 <br><br><br><br><br><br><br><br><br><br><br>
 <div>
   
-### Paradigmas de Programação <br>
-### Projeto 2 – Paradigma Orientado a Objeto<br>
-###### Prof. David Tigre Moraes<br>
 
-#### O que fazer<br>
+# Calculadora OOP<br>
+
+### O que fazer<br>
 </div>
 <div>
-PRIMEIRO: Desenvolva um programa, em qualquer linguagem de programação (que suporte
+Desenvolva um programa, em qualquer linguagem de programação (que suporte
 orientação a objeto) que simule uma calculadora, seguindo o diagrama de atividades da próxima
 página.<br>
-Atente-se que esse programa precisa ser escrito no PARADIGMA ORIENTADO A OBJETO. Para
-fazer isso, aqui vão algumas dicas:<br>
+Atente-se que esse programa precisa ser escrito no PARADIGMA ORIENTADO A OBJETO. 
+<br>Para fazer isso, aqui vão algumas dicas:<br>
 • Separe as responsabilidades do projeto em diferentes Classes e utilize a relação entre os
 objetos para desenvolver a lógica<br>
 • Evite colocar todas as responsabilidades e fluxos em uma classe só<br>
 • Se todas as lógicas, regras e ações do usuário estiverem na classe principal (Main) com
-métodos sendo chamados dentro dela, então sua escrita Orientada a Objeto está ERRADA.
-Ao final, indique quais classes ficaram responsáveis por realizar as ações referentes ao diagrama
-de atividades proposto. Essa parte pode ser feita em um documento a parte
-Envie, no Canvas, tanto o código elaborado quanto o documento com as responsabilidades.  
+métodos sendo chamados dentro dela, então sua escrita Orientada a Objeto está ERRADA.<br>
 </div>
 <br>
 
