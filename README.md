@@ -1,5 +1,5 @@
 
-## Analisar pedra, papel, tesoura, lagarto e  para a modelagem OOP<br><br>
+## Analisar pedra, papel, tesoura, lagarto e Spock para a modelagem OOP<br><br>
 
 
 ### Este exercício é um exercício de modelagem. Você receberá uma descrição do domínio do problema. Em seguida, deverá retirar as palavras-chave importantes do texto e organizá-las em uma tabela.
