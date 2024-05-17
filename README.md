@@ -15,7 +15,7 @@ Quais são as regras para lagarto e Spock?<br>
 A tesoura decapita o lagarto, tesoura corta papel, papel embrulha a pedra, a pedra esmaga o lagarto, o lagarto envenena Spock, Spock destrói a tesoura, a tesoura decapita o lagarto, o lagarto come o papel, o papel refuta Spock, Spock vaporiza a pedra e, como sempre, a pedra esmaga a tesoura.
 </div>
 <br>
-<a ><img src="https://cdn.pensador.com/img/frase/sh/el/sheldon_cooper_pedra_papel_tesoura_lagarto_spock_e_muit_lmym9zy.jpg"></a>
+<p align="center"><img src="https://cdn.pensador.com/img/frase/sh/el/sheldon_cooper_pedra_papel_tesoura_lagarto_spock_e_muit_lmym9zy.jpg"></p>
 <br>
 
 ### Paradigmas de Programação <br>
@@ -41,4 +41,7 @@ Envie, no Canvas, tanto o código elaborado quanto o documento com as responsabi
 </div>
 <br>
 
-![Projeto 2 - Orientado a Objeto_pages-to-jpg-0002](https://github.com/LimaAnthonyY/calculator_with_object_oriented_programming/assets/130506698/1a70ae6d-4799-44de-96c1-83f9ad42ce63)
+<p align="center">
+  
+<img src="https://github.com/LimaAnthonyY/calculator_with_object_oriented_programming/assets/130506698/1a70ae6d-4799-44de-96c1-83f9ad42ce63" >
+</p>
